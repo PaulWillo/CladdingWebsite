@@ -1,9 +1,14 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
+import NavBar from './NavBar';
 
-function App() {
+const App = () => {
+ 
   return (
-    <h1>Hello world</h1>
-  );
+    
+    <NavBar/>
+    
+  )
 }
 
 export default App;
